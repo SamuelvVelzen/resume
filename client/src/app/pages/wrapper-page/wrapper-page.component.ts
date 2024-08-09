@@ -4,12 +4,10 @@ import { NavItemComponent } from '../../ui/nav/nav-item/nav-item.component';
 import { NavbarComponent } from '../../ui/nav/navbar/navbar.component';
 
 @Component({
-  selector: 'svv-homepage',
-  standalone: true,
+  selector: 'svv-wrapper-page',
   imports: [NavbarComponent, NavItemComponent, RouterOutlet],
-  templateUrl: 'homepage.component.html',
-  styleUrls: ['homepage.component.scss'],
+  templateUrl: './wrapper-page.component.html',
+  styleUrls: ['./wrapper-page.component.scss'],
+  standalone: true,
 })
-export class HomepageComponent {
-  constructor() {}
-}
+export class WrapperPageComponent {}
