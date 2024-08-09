@@ -1,4 +1,4 @@
 export const ROUTES_SEGMENTS = {
-  root: '/',
-  home: '/home',
+  root: '',
+  aboutMe: 'about-me',
 };
