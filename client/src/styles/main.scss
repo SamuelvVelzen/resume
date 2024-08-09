@@ -1,0 +1,8 @@
+@import "./bootstrap/index.scss";
+
+html,
+body {
+  height: 100vh;
+  background-color: var(--bs-dark);
+  color: var(--bs-light);
+}
