@@ -1,3 +1,8 @@
-<a [routerLink]="path" routerLinkActive="active" class="nav-link"
+<a
+  [routerLink]="path"
+  routerLinkActive="active"
+  class="nav-link"
+  [ngClass]="bodyClass"
+  [routerLinkActiveOptions]="{ exact: true }"
   ><ng-content></ng-content
 ></a>

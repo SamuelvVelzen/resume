@@ -1,0 +1,7 @@
+:host {
+  --nav-height: 56px;
+
+  main {
+    height: calc(100% - #{var(--nav-height)});
+  }
+}

@@ -1,0 +1,8 @@
+// @use "./../../../../styles/bootstrap/index.scss";
+@import "styles/bootstrap/index.scss";
+
+.nav-link {
+  &.active:not(&.navbar-brand) {
+    font-weight: $font-weight-bolder;
+  }
+}

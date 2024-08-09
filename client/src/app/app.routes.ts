@@ -12,8 +12,12 @@ export const routes: Routes = [
       {
         path: '',
         component: HomepageComponent,
+        pathMatch: 'prefix',
       },
-      { path: ROUTES_SEGMENTS.aboutMe, component: AboutMePageComponent },
+      {
+        path: ROUTES_SEGMENTS.aboutMe,
+        component: AboutMePageComponent,
+      },
     ],
   },
 ];
