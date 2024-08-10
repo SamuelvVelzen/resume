@@ -9,6 +9,6 @@ import { Component, Input } from '@angular/core';
   imports: [NgTemplateOutlet, NgClass, NgIf],
 })
 export class IconPlacementComponent {
-  @Input('svvIconPlacement') icon: string = '';
+  @Input('svvIconPlacement') icon?: string = '';
   @Input() position: 'start' | 'end' = 'start';
 }
