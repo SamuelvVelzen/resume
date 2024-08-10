@@ -11,11 +11,16 @@ export const routes: Routes = [
     component: LandingPageComponent,
   },
   {
-    path: ROUTES_SEGMENTS.home,
+    path: ROUTES_SEGMENTS.resume,
     component: WrapperPageComponent,
     children: [
       {
         path: '',
+        pathMatch: 'full',
+        redirectTo: ROUTES_SEGMENTS.home,
+      },
+      {
+        path: ROUTES_SEGMENTS.home,
         component: HomepageComponent,
       },
       {
