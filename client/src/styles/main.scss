@@ -1,4 +1,6 @@
-@import "./bootstrap/index.scss";
+@import "./bootstrap/index";
+
+@import "bootstrap-icons/font/bootstrap-icons";
 
 html,
 body {
@@ -8,6 +10,10 @@ body {
   color: var(--bs-light);
 }
 
-p {
-  margin-bottom: 0;
+.navbar-brand {
+  color: var(--bs-light) !important;
 }
+
+// p {
+//   margin-bottom: 0;
+// }
