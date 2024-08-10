@@ -11,5 +11,6 @@ import { NavbarComponent } from '../../ui/nav/navbar/navbar.component';
   styleUrls: ['homepage.component.scss'],
 })
 export class HomepageComponent {
-  constructor() {}
+  email = 'SamuelvVelzen&#64;iCloud.com';
+  phoneNumber = '+316 27 54 28 94';
 }
