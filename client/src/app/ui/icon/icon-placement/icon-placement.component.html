@@ -1,4 +1,4 @@
-@if (icon ) { @if (position == "start") {
+@if (position == "start") {
 <ng-container
   [ngTemplateOutlet]="iconTpl"
   [ngTemplateOutletContext]="{ margin: 'me-2' }"
@@ -10,8 +10,8 @@
   [ngTemplateOutlet]="iconTpl"
   [ngTemplateOutletContext]="{ margin: 'ms-2' }"
 ></ng-container>
-} }
+}
 
 <ng-template #iconTpl let-margin="margin">
-  <i [ngClass]="[icon, margin]" class="bs"></i>
+  <i *ngIf="icon" [ngClass]="[icon, margin]" class="bs"></i>
 </ng-template>
