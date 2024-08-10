@@ -28,8 +28,10 @@
 
 <section>
   <h3>Contact Information</h3>
-  <p>Email: <span [innerHTML]="email"></span></p>
+  <p [svvIconPlacement]="'bi-at'">Email: <span [innerHTML]="email"></span></p>
 
-  <p>Phone: <span [innerHTML]="phoneNumber"></span></p>
-  <p>Location: Harderwijk, The Netherlands</p>
+  <p [svvIconPlacement]="'bi-phone'">
+    Phone: <span [innerHTML]="phoneNumber"></span>
+  </p>
+  <p [svvIconPlacement]="'bi-geo'">Location: Harderwijk, The Netherlands</p>
 </section>
