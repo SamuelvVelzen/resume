@@ -1,0 +1,17 @@
+@if (position == "start") {
+<ng-container
+  [ngTemplateOutlet]="iconTpl"
+  [ngTemplateOutletContext]="{ margin: 'me-2' }"
+></ng-container>
+}
+<ng-content></ng-content>
+@if (position == "end") {
+<ng-container
+  [ngTemplateOutlet]="iconTpl"
+  [ngTemplateOutletContext]="{ margin: 'ms-2' }"
+></ng-container>
+}
+
+<ng-template #iconTpl let-margin="margin">
+  <i [ngClass]="[icon, margin]" class="bs"></i>
+</ng-template>
