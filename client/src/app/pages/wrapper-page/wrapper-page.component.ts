@@ -14,6 +14,6 @@ import { ROUTES_SEGMENTS } from '../routes-segments';
 })
 export class WrapperPageComponent {
   routesSegments = ROUTES_SEGMENTS;
-  homePath = `${ROUTES_SEGMENTS.resume}/${ROUTES_SEGMENTS.home}`;
-  projectPath = `${ROUTES_SEGMENTS.resume}/${ROUTES_SEGMENTS.projects}`;
+  homePath = `${ROUTES_SEGMENTS.home}`;
+  projectsPath = `${ROUTES_SEGMENTS.projects}`;
 }
