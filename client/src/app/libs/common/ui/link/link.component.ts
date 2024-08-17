@@ -1,5 +1,5 @@
 import { Component, Input } from '@angular/core';
-import { IconPlacementComponent } from '../../icon/icon-placement/icon-placement.component';
+import { IconPlacementComponent } from '../icon/icon-placement/icon-placement.component';
 
 @Component({
   selector: 'svv-link',
