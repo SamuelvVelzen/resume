@@ -1,8 +1,10 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import { IconPlacementComponent } from '@SVV/ui/icon/icon-placement/icon-placement.component';
-import { NavItemComponent } from '@SVV/ui/nav/nav-item/nav-item.component';
-import { NavbarComponent } from '@SVV/ui/nav/navbar/navbar.component';
+import {
+  IconPlacementComponent,
+  NavbarComponent,
+  NavItemComponent,
+} from '@SVV/common/ui';
 
 @Component({
   selector: 'svv-homepage',

@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { RouterLink } from '@angular/router';
-import { BrowserTitleService } from '@SVV/util/browser-title.service';
+import { BrowserTitleService } from '@SVV/common/util';
 import { ROUTES_SEGMENTS } from '../routes-segments';
 
 @Component({
