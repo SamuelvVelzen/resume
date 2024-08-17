@@ -1,7 +1,7 @@
 import { Routes } from '@angular/router';
 import { HomepageComponent } from './pages/homepage/homepage.component';
 import { LandingPageComponent } from './pages/landing-page/landing-page.component';
-import { ProjectComponent } from './pages/project/project.component';
+import { ProjectPageComponent } from './pages/project-page/project-page.component';
 import { ROUTES_SEGMENTS } from './pages/routes-segments';
 import { WrapperPageComponent } from './pages/wrapper-page/wrapper-page.component';
 
@@ -25,7 +25,7 @@ export const routes: Routes = [
       },
       {
         path: ROUTES_SEGMENTS.projects,
-        component: ProjectComponent,
+        component: ProjectPageComponent,
       },
       // {
       //   path: ROUTES_SEGMENTS.aboutMe,
