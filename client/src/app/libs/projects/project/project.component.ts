@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { BadgeComponent } from '@SVV/common/ui/badge/badge.component';
+import { BadgeComponent } from '@SVV/common/ui';
 
 @Component({
   selector: 'svv-project',
