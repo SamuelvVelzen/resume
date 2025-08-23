@@ -22,6 +22,6 @@ export class HomepageComponent {
   eEnd = 'iCloud.com';
 
   phStart = '+316';
-  phMiddle = '27 54';
-  phEnd = '28 94';
+  phMiddle = '2754';
+  phEnd = '2894';
 }

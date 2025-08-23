@@ -29,11 +29,18 @@
 <section>
   <h3>Contact Information</h3>
   <p [svvIconPlacement]="'bi-at'">
-    Email: <span [innerHTML]="eStart + eMiddle + eEnd"></span>
+    Email me: <span [innerHTML]="eStart + eMiddle + eEnd"></span>
   </p>
 
   <p [svvIconPlacement]="'bi-phone'">
-    Phone: <span [innerHTML]="phStart + ' ' + phMiddle + ' ' + phEnd"></span>
+    <a
+      aria-label="Chat on WhatsApp"
+      [href]="'https://wa.me/' + phStart + phMiddle + phEnd"
+      class="ms-1"
+    >
+      <img alt="Chat on WhatsApp" src="assets/WhatsAppButtonGreenSmall.svg" />
+    </a>
   </p>
+
   <p [svvIconPlacement]="'bi-geo'">Location: Harderwijk, The Netherlands</p>
 </section>
