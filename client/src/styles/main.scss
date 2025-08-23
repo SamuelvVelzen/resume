@@ -3,8 +3,7 @@
 @import "bootstrap-icons/font/bootstrap-icons";
 
 html,
-body,
-svv-root {
+body {
   min-height: 100vh;
 
   background-color: var(--bs-dark);
@@ -13,4 +12,9 @@ svv-root {
 
 .navbar-brand {
   color: var(--bs-light) !important;
+}
+
+svv-root {
+  min-height: 100%;
+  display: block;
 }
