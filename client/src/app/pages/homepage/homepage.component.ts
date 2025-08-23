@@ -17,6 +17,11 @@ import { NavbarComponent } from '@SVV/ui/nav/navbar/navbar.component';
   styleUrls: ['homepage.component.scss'],
 })
 export class HomepageComponent {
-  email = 'SamuelvVelzen&#64;iCloud.com';
-  phoneNumber = '+316 27 54 28 94';
+  eStart = 'SamuelvVelzen';
+  eMiddle = '&#64;';
+  eEnd = 'iCloud.com';
+
+  phStart = '+316';
+  phMiddle = '27 54';
+  phEnd = '28 94';
 }
