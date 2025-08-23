@@ -3,8 +3,9 @@
 @import "bootstrap-icons/font/bootstrap-icons";
 
 html,
-body {
-  height: 100vh;
+body,
+svv-root {
+  min-height: 100vh;
 
   background-color: var(--bs-dark);
   color: var(--bs-light);
